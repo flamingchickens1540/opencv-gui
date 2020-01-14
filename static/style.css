@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid; /*     - Rows          - Columns*/
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    padding: 10px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    min-width: 0;
+    border-style: solid;
+    border-color: white;
+}
+
+footer {
+    text-align: center;
+}

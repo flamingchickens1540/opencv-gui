@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>OpenCV GUI</title>
+    <link rel="stylesheet" href="static/nouislider.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        {{ stream_html }}
+    </div>
+
+    <br>
+    <p>Round trip latency: <b><span id="latency"></span>ms</b></p>
+
+    <div class="sliders">
+        <br>
+        {{ sliders_elem }}
+    </div>
+
+    <footer>Flaming Chickens 2019</footer>
+</body>
+
+<script src="static/socket.io.js"></script>
+<script src="static/nouislider.min.js"></script>
+<script src="static/script.js"></script>
+<script src="/sliders.js"></script>
+
+</html>
